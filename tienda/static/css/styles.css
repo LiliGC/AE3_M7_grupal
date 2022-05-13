@@ -1,0 +1,40 @@
+#demo {
+    max-width: 40%;
+    max-height: 40%;
+    margin: 0 auto;
+}
+
+.carrusel {
+    color: #fff;
+    background-color: #000;
+}
+
+.social {
+    max-width: 25px;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.producto {
+    width: 20%;
+    margin-top: 20px;
+}
+
+.producto .contenedor_producto {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+}
+
+.producto img {
+    width: 100%;
+    height: 235px;
+    object-fit: cover;
+}
+
+.producto .detalle {
+    padding: 5px;
+}

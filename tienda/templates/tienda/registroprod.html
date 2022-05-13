@@ -1,0 +1,26 @@
+{% extends './index.html' %}
+
+{% block title %}<title>Registro de productos</title>{% endblock %}
+
+{% block content%}
+
+{% load crispy_forms_tags %}
+
+<div class="container py-5">
+    
+	<h3>Registro de productos</h3>
+    <br>
+	<form method="post">
+
+        {% csrf_token %}
+
+        {{form|crispy}}
+        <div class="d-flex justify-content-end">
+            <input class="btn btn-secondary" type="reset" value="Cancelar" />
+            &nbsp;
+            <input class="btn btn-primary" type="submit" value="Guardar" />
+        </div>
+    </form>
+</div>
+
+{% endblock %}
