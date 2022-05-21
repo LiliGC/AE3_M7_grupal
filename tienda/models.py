@@ -14,6 +14,18 @@ class Cliente(models.Model):
     def __str__(self):
         return '%s %s' % (self.nombre, self.apellido)
 
+class Categoria(models.Model):
+    nombre= models.CharField(max_length=30)
+
+    def __str__(self): 
+        return self.nombre
+
+class Subcategoria(models.Model):
+    nombre= models.CharField(max_length=30)
+
+    def __str__(self): 
+        return self.nombre
+
 class Proveedor(models.Model):
 
     nombre=models.CharField(max_length=50) 
@@ -22,18 +34,16 @@ class Proveedor(models.Model):
 
     telefono=models.CharField(max_length=50) 
 
-    correo_electronico=models.EmailField(max_length=50) 
+    correo_electronico=models.EmailField(max_length=50)
+
+    categoria=models.ForeignKey(Categoria, null=True, on_delete=models.SET_NULL)
+
+    subcategoria=models.ForeignKey(Subcategoria, null=True, on_delete=models.SET_NULL)
 
     def __str__(self): 
         return self.marca
         
 class Producto(models.Model):
-    Polera='polera'
-    Poleron= 'poleron'
-    Chaqueta='chaqueta'
-    Hombre='H'
-    Mujer='M'
-    Unisex='U'
     Blanco='blanco'
     Negro='negro'
     Gris='gris'
@@ -41,26 +51,6 @@ class Producto(models.Model):
     Medium='M'
     Large='L'
     XLarge='XL'
-
-    TIPO_CHOICES=[
-
-    (Polera, 'polera'), 
-
-    (Poleron, 'poleron'), 
-
-    (Chaqueta, 'chaqueta'),
-
-    ]
-
-    CATEGORIA_CHOICES=[
-
-    (Hombre, 'Hombre'), 
-
-    (Mujer, 'Mujer'), 
-
-    (Unisex, 'Unisex'),
-
-    ]
 
     COLOR_CHOICES=[
 
@@ -85,9 +75,9 @@ class Producto(models.Model):
     ]
 
     nombre=models.CharField(max_length=50)
-    tipo_de_producto= models.CharField('tipo de producto',max_length=15,choices=TIPO_CHOICES, default='polera',)
-    categoria=models.CharField(max_length=6,choices=CATEGORIA_CHOICES, default='hombre',)
     marca=models.ForeignKey(Proveedor, on_delete=models.PROTECT)
+    moda=models.ForeignKey(Categoria, null=True, on_delete=models.SET_NULL)
+    tipo=models.ForeignKey(Subcategoria, null=True, on_delete=models.SET_NULL)
     precio=models.IntegerField()
     stock=models.IntegerField()
     color=models.CharField(max_length=10,choices=COLOR_CHOICES, default='blanco')

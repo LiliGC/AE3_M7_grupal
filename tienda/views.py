@@ -31,7 +31,7 @@ def clientes(request):
 
 @login_required
 def proveedores(request):
-    proveedor=Proveedor.objects.all().values()
+    proveedor=Proveedor.objects.all()
     context = {
     'proveedores': proveedor,
     }
@@ -74,10 +74,11 @@ def registroprov(request):
         if form.is_valid():
             proveedor=Proveedor()
             proveedor.nombre=form.cleaned_data["nombre"]
-            proveedor.razon_social=form.cleaned_data["razon_social"]
+            proveedor.categoria=form.cleaned_data["categoria"]
+            proveedor.subcategoria=form.cleaned_data["subcategoria"]
+            proveedor.marca=form.cleaned_data["marca"]
             proveedor.telefono=form.cleaned_data["telefono"]
             proveedor.correo_electronico=form.cleaned_data["correo_electronico"]
-            proveedor.categoria=form.cleaned_data["categoria"]
             proveedor.save()
             messages.success(request, 'Los datos han sido guardados satisfactoriamente')
         else: messages.error('Inválido')
@@ -99,8 +100,9 @@ def registroprod(request):
         if form.is_valid():
             producto=Producto()
             producto.nombre=form.cleaned_data["nombre"]
-            producto.categoria=form.cleaned_data["categoria"]
             producto.marca=form.cleaned_data["marca"]
+            producto.moda=form.cleaned_data["moda"]
+            producto.tipo=form.cleaned_data["tipo"]
             producto.precio=form.cleaned_data["precio"]
             producto.stock=form.cleaned_data["stock"]
             producto.color=form.cleaned_data["color"]

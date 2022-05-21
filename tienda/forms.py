@@ -9,7 +9,7 @@ class ProveedorForm(ModelForm):
 
     class Meta:
         model=Proveedor
-        fields=['nombre', 'marca', 'telefono', 'correo_electronico']
+        fields='__all__'
     
     labels = {
         'nombre':  'Nombre de representante',
@@ -37,7 +37,7 @@ class NewUserForm(UserCreationForm):
 class ProductoForm(ModelForm):
     class Meta:
         model=Producto
-        fields=['nombre', 'tipo_de_producto', 'categoria', 'marca', 'precio', 'stock', 'color', 'talla', 'imagen']
+        fields= '__all__'
 
 
 class ContactoForm(ModelForm):
