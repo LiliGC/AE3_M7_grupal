@@ -1,6 +1,4 @@
-# AE3_M7_grupal
-
-M7 AE3 grupal
+**AE3_M7_grupal**
 
 Grupo 1
 
