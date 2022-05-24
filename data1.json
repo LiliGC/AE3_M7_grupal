@@ -1,0 +1,2416 @@
+[{
+        "model": "admin_interface.theme",
+        "pk": 1,
+        "fields": {
+            "name": "Django",
+            "active": false,
+            "title": "Django administration",
+            "title_color": "#F5DD5D",
+            "title_visible": true,
+            "logo": "",
+            "logo_color": "#FFFFFF",
+            "logo_max_width": 400,
+            "logo_max_height": 100,
+            "logo_visible": true,
+            "favicon": "",
+            "env_name": "",
+            "env_color": "#E74C3C",
+            "env_visible_in_header": true,
+            "env_visible_in_favicon": true,
+            "language_chooser_active": true,
+            "language_chooser_display": "code",
+            "css_header_background_color": "#0C4B33",
+            "css_header_text_color": "#44B78B",
+            "css_header_link_color": "#FFFFFF",
+            "css_header_link_hover_color": "#C9F0DD",
+            "css_module_background_color": "#44B78B",
+            "css_module_background_selected_color": "#FFFFCC",
+            "css_module_text_color": "#FFFFFF",
+            "css_module_link_color": "#FFFFFF",
+            "css_module_link_selected_color": "#FFFFFF",
+            "css_module_link_hover_color": "#C9F0DD",
+            "css_module_rounded_corners": true,
+            "css_generic_link_color": "#0C3C26",
+            "css_generic_link_hover_color": "#156641",
+            "css_save_button_background_color": "#0C4B33",
+            "css_save_button_background_hover_color": "#0C3C26",
+            "css_save_button_text_color": "#FFFFFF",
+            "css_delete_button_background_color": "#BA2121",
+            "css_delete_button_background_hover_color": "#A41515",
+            "css_delete_button_text_color": "#FFFFFF",
+            "related_modal_active": true,
+            "related_modal_background_color": "#000000",
+            "related_modal_background_opacity": "0.3",
+            "related_modal_rounded_corners": true,
+            "related_modal_close_button_visible": true,
+            "list_filter_dropdown": true,
+            "list_filter_sticky": true,
+            "foldable_apps": true,
+            "recent_actions_visible": true,
+            "form_submit_sticky": false,
+            "form_pagination_sticky": false
+        }
+    },
+    {
+        "model": "admin_interface.theme",
+        "pk": 2,
+        "fields": {
+            "name": "Telovendo",
+            "active": true,
+            "title": "Administración de Te lo vendo",
+            "title_color": "#FFFFFF",
+            "title_visible": true,
+            "logo": "admin-interface/logo/tlvendologo.png",
+            "logo_color": "#FFFFFF",
+            "logo_max_width": 400,
+            "logo_max_height": 100,
+            "logo_visible": true,
+            "favicon": "admin-interface/favicon/favicon.png",
+            "env_name": "",
+            "env_color": "#E74C3C",
+            "env_visible_in_header": true,
+            "env_visible_in_favicon": true,
+            "language_chooser_active": true,
+            "language_chooser_display": "code",
+            "css_header_background_color": "#000000",
+            "css_header_text_color": "#D0D0D0",
+            "css_header_link_color": "#FFFFFF",
+            "css_header_link_hover_color": "#C9F0DD",
+            "css_module_background_color": "#B60000",
+            "css_module_background_selected_color": "#FFFFCC",
+            "css_module_text_color": "#FFFFFF",
+            "css_module_link_color": "#FFFFFF",
+            "css_module_link_selected_color": "#FFFFFF",
+            "css_module_link_hover_color": "#C9F0DD",
+            "css_module_rounded_corners": true,
+            "css_generic_link_color": "#0C3C26",
+            "css_generic_link_hover_color": "#156641",
+            "css_save_button_background_color": "#0C4B33",
+            "css_save_button_background_hover_color": "#0C3C26",
+            "css_save_button_text_color": "#FFFFFF",
+            "css_delete_button_background_color": "#BA2121",
+            "css_delete_button_background_hover_color": "#A41515",
+            "css_delete_button_text_color": "#FFFFFF",
+            "related_modal_active": true,
+            "related_modal_background_color": "#000000",
+            "related_modal_background_opacity": "0.3",
+            "related_modal_rounded_corners": true,
+            "related_modal_close_button_visible": true,
+            "list_filter_dropdown": true,
+            "list_filter_sticky": true,
+            "foldable_apps": true,
+            "recent_actions_visible": true,
+            "form_submit_sticky": false,
+            "form_pagination_sticky": false
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2022-04-18T23:58:38.067Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "Mark Johnson",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2022-04-18T23:59:42.813Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "Jacob Thorton",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2022-04-19T00:00:37.117Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "Larry Smith",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2022-04-19T00:01:40.801Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "4",
+            "object_repr": "Maria Silva",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2022-04-19T00:02:26.831Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "5",
+            "object_repr": "Clara Saldivar",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2022-04-19T00:03:16.988Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "6",
+            "object_repr": "Daniel Saa",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 7,
+        "fields": {
+            "action_time": "2022-04-19T00:08:01.092Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "7",
+            "object_repr": "Vicente Campos",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 8,
+        "fields": {
+            "action_time": "2022-04-19T00:09:12.440Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "8",
+            "object_repr": "Fernando Perez",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 9,
+        "fields": {
+            "action_time": "2022-04-19T00:10:07.330Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "9",
+            "object_repr": "Soledad Pinares",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 10,
+        "fields": {
+            "action_time": "2022-04-19T00:10:58.846Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "10",
+            "object_repr": "Cecilia Ramirez",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 11,
+        "fields": {
+            "action_time": "2022-04-19T00:12:21.406Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "11",
+            "object_repr": "Benito Carmelo",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 12,
+        "fields": {
+            "action_time": "2022-04-23T01:09:18.037Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "liliana Adidas",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 13,
+        "fields": {
+            "action_time": "2022-04-23T01:10:25.809Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "liliana Adidas",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 14,
+        "fields": {
+            "action_time": "2022-04-23T01:10:33.854Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "3",
+            "object_repr": "Alberto Claro",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 15,
+        "fields": {
+            "action_time": "2022-04-23T01:10:40.006Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "4",
+            "object_repr": "Valeria Limonada",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 16,
+        "fields": {
+            "action_time": "2022-04-23T01:23:50.070Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "6",
+            "object_repr": "Larry Claro",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 17,
+        "fields": {
+            "action_time": "2022-04-23T01:23:50.081Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "5",
+            "object_repr": "liliana Adidas",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 18,
+        "fields": {
+            "action_time": "2022-04-23T01:26:54.197Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "8",
+            "object_repr": "Larry Claro",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 19,
+        "fields": {
+            "action_time": "2022-04-23T01:26:54.206Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "7",
+            "object_repr": "Alberto Adidas",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 20,
+        "fields": {
+            "action_time": "2022-04-29T23:21:13.806Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "3",
+            "object_repr": "Alberto",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 21,
+        "fields": {
+            "action_time": "2022-04-29T23:59:58.016Z",
+            "user": 1,
+            "content_type": 3,
+            "object_id": "1",
+            "object_repr": "Ventas",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 22,
+        "fields": {
+            "action_time": "2022-04-30T00:01:17.946Z",
+            "user": 1,
+            "content_type": 3,
+            "object_id": "2",
+            "object_repr": "Contenidos",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 23,
+        "fields": {
+            "action_time": "2022-04-30T00:05:41.594Z",
+            "user": 1,
+            "content_type": 3,
+            "object_id": "3",
+            "object_repr": "Colaborador",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 24,
+        "fields": {
+            "action_time": "2022-04-30T00:07:51.488Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "3",
+            "object_repr": "Alberto",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 25,
+        "fields": {
+            "action_time": "2022-04-30T00:08:49.283Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "2",
+            "object_repr": "Diego",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"Groups\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 26,
+        "fields": {
+            "action_time": "2022-04-30T00:09:48.867Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "4",
+            "object_repr": "Colaborador1",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 27,
+        "fields": {
+            "action_time": "2022-04-30T00:10:30.154Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "4",
+            "object_repr": "Colaborador1",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 28,
+        "fields": {
+            "action_time": "2022-04-30T00:10:50.307Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "4",
+            "object_repr": "Colaborador1",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 29,
+        "fields": {
+            "action_time": "2022-05-09T04:23:26.696Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "2",
+            "object_repr": "Telovendo",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 30,
+        "fields": {
+            "action_time": "2022-05-09T04:24:44.763Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "2",
+            "object_repr": "Telovendo",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Favicon\", \"Title\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 31,
+        "fields": {
+            "action_time": "2022-05-09T04:26:25.495Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "2",
+            "object_repr": "Telovendo",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Background color\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 32,
+        "fields": {
+            "action_time": "2022-05-09T04:26:50.944Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "2",
+            "object_repr": "Telovendo",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Background color\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 33,
+        "fields": {
+            "action_time": "2022-05-09T04:27:22.682Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "2",
+            "object_repr": "Telovendo",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Color\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 34,
+        "fields": {
+            "action_time": "2022-05-09T04:27:53.931Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "2",
+            "object_repr": "Telovendo",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Text color\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 35,
+        "fields": {
+            "action_time": "2022-05-09T04:43:16.126Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "2",
+            "object_repr": "Telovendo",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Logo\", \"Background color\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 36,
+        "fields": {
+            "action_time": "2022-05-09T04:43:51.546Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "2",
+            "object_repr": "Telovendo",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Background color\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 37,
+        "fields": {
+            "action_time": "2022-05-09T04:44:32.009Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "2",
+            "object_repr": "Telovendo",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Background color\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 38,
+        "fields": {
+            "action_time": "2022-05-09T04:44:51.196Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "2",
+            "object_repr": "Telovendo",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 39,
+        "fields": {
+            "action_time": "2022-05-09T04:45:40.943Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "2",
+            "object_repr": "Telovendo",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Background color\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 40,
+        "fields": {
+            "action_time": "2022-05-09T04:46:06.228Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "2",
+            "object_repr": "Telovendo",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Background color\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 41,
+        "fields": {
+            "action_time": "2022-05-09T05:02:30.452Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Polera blanca hombre",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 42,
+        "fields": {
+            "action_time": "2022-05-09T05:03:38.461Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "Polera negra mujer",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 43,
+        "fields": {
+            "action_time": "2022-05-09T05:04:50.034Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "3",
+            "object_repr": "Poleron gris hombre",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 44,
+        "fields": {
+            "action_time": "2022-05-09T05:05:56.617Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "4",
+            "object_repr": "Poleron negro unisex",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 45,
+        "fields": {
+            "action_time": "2022-05-09T05:53:52.455Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Polera blanca hombre",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Imagen\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 46,
+        "fields": {
+            "action_time": "2022-05-09T05:54:00.133Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "Polera negra mujer",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 47,
+        "fields": {
+            "action_time": "2022-05-19T01:20:08.580Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "1",
+            "object_repr": "Moda Hombre",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 48,
+        "fields": {
+            "action_time": "2022-05-19T01:20:14.781Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "2",
+            "object_repr": "Moda Mujer",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 49,
+        "fields": {
+            "action_time": "2022-05-19T01:26:27.917Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "1",
+            "object_repr": "Polera",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 50,
+        "fields": {
+            "action_time": "2022-05-19T01:26:35.689Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "2",
+            "object_repr": "Poleron",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 51,
+        "fields": {
+            "action_time": "2022-05-19T01:26:54.926Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "3",
+            "object_repr": "Chaqueta",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 52,
+        "fields": {
+            "action_time": "2022-05-19T01:27:08.325Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "4",
+            "object_repr": "Otros",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 53,
+        "fields": {
+            "action_time": "2022-05-20T01:04:18.933Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "4",
+            "object_repr": "Poleron negro unisex",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 54,
+        "fields": {
+            "action_time": "2022-05-20T01:04:27.362Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "3",
+            "object_repr": "Poleron gris hombre",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 55,
+        "fields": {
+            "action_time": "2022-05-20T01:04:36.314Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "Polera negra mujer",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 56,
+        "fields": {
+            "action_time": "2022-05-20T01:04:45.174Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Polera blanca hombre",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 57,
+        "fields": {
+            "action_time": "2022-05-20T01:04:59.471Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "12",
+            "object_repr": "Master Dog",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 58,
+        "fields": {
+            "action_time": "2022-05-20T01:18:35.711Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "1",
+            "object_repr": "Moda Hombre",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 59,
+        "fields": {
+            "action_time": "2022-05-20T01:18:41.857Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "2",
+            "object_repr": "Moda Mujer",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 60,
+        "fields": {
+            "action_time": "2022-05-20T01:18:57.611Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "1",
+            "object_repr": "Polera",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 61,
+        "fields": {
+            "action_time": "2022-05-20T01:19:07.817Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "2",
+            "object_repr": "Polerones",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 62,
+        "fields": {
+            "action_time": "2022-05-20T01:19:16.243Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "3",
+            "object_repr": "Chaquetas",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 63,
+        "fields": {
+            "action_time": "2022-05-20T01:19:35.594Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "1",
+            "object_repr": "Poleras",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Nombre\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 64,
+        "fields": {
+            "action_time": "2022-05-21T01:23:39.057Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "13",
+            "object_repr": "Everlast",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 65,
+        "fields": {
+            "action_time": "2022-05-21T01:23:39.063Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "11",
+            "object_repr": "Diadora",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 66,
+        "fields": {
+            "action_time": "2022-05-21T01:23:39.067Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "10",
+            "object_repr": "Puma",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 67,
+        "fields": {
+            "action_time": "2022-05-21T01:23:39.071Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "9",
+            "object_repr": "Adidas",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 68,
+        "fields": {
+            "action_time": "2022-05-21T01:58:11.406Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "1",
+            "object_repr": "Hombre",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 69,
+        "fields": {
+            "action_time": "2022-05-21T01:58:19.291Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "2",
+            "object_repr": "Mujer",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 70,
+        "fields": {
+            "action_time": "2022-05-21T01:58:58.076Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "1",
+            "object_repr": "Polerones",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 71,
+        "fields": {
+            "action_time": "2022-05-21T01:59:05.367Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "2",
+            "object_repr": "Poleras",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 72,
+        "fields": {
+            "action_time": "2022-05-21T01:59:15.447Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "3",
+            "object_repr": "Chaquetas",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 73,
+        "fields": {
+            "action_time": "2022-05-21T02:01:51.497Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "14",
+            "object_repr": "Gato veloz",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 74,
+        "fields": {
+            "action_time": "2022-05-21T02:02:49.492Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "15",
+            "object_repr": "Zapatas",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 75,
+        "fields": {
+            "action_time": "2022-05-21T02:03:46.932Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "16",
+            "object_repr": "Testing",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 76,
+        "fields": {
+            "action_time": "2022-05-21T02:21:30.039Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "17",
+            "object_repr": "Poleid",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 77,
+        "fields": {
+            "action_time": "2022-05-21T02:21:38.030Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "17",
+            "object_repr": "Poleid",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 78,
+        "fields": {
+            "action_time": "2022-05-21T02:21:42.709Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "16",
+            "object_repr": "Testing",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 79,
+        "fields": {
+            "action_time": "2022-05-21T02:21:47.933Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "14",
+            "object_repr": "Gato veloz",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 80,
+        "fields": {
+            "action_time": "2022-05-21T02:21:53.497Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "15",
+            "object_repr": "Zapatas",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 81,
+        "fields": {
+            "action_time": "2022-05-21T02:21:59.186Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "17",
+            "object_repr": "Poleid",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 82,
+        "fields": {
+            "action_time": "2022-05-21T02:22:59.622Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "18",
+            "object_repr": "Bravos",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 83,
+        "fields": {
+            "action_time": "2022-05-21T02:23:14.975Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "18",
+            "object_repr": "Bravos",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 84,
+        "fields": {
+            "action_time": "2022-05-21T02:23:21.689Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "18",
+            "object_repr": "Bravos",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 85,
+        "fields": {
+            "action_time": "2022-05-21T02:26:57.107Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "18",
+            "object_repr": "Bravos",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Subcategoria\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 86,
+        "fields": {
+            "action_time": "2022-05-21T02:29:03.433Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "19",
+            "object_repr": "Anivel",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 87,
+        "fields": {
+            "action_time": "2022-05-21T02:32:16.951Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Polera blanca hombre",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 88,
+        "fields": {
+            "action_time": "2022-05-21T02:35:47.539Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "Polera negra mujer",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 89,
+        "fields": {
+            "action_time": "2022-05-21T02:36:54.205Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "3",
+            "object_repr": "Poleron gris hombre",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 90,
+        "fields": {
+            "action_time": "2022-05-21T02:37:55.718Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "4",
+            "object_repr": "Poleron negro mujer",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 4,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 4,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 4,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 4,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 5,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 5,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 5,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 5,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 6,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 6,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 6,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 6,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add cliente",
+            "content_type": 7,
+            "codename": "add_cliente"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change cliente",
+            "content_type": 7,
+            "codename": "change_cliente"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete cliente",
+            "content_type": 7,
+            "codename": "delete_cliente"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view cliente",
+            "content_type": 7,
+            "codename": "view_cliente"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add proveedor",
+            "content_type": 8,
+            "codename": "add_proveedor"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change proveedor",
+            "content_type": 8,
+            "codename": "change_proveedor"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete proveedor",
+            "content_type": 8,
+            "codename": "delete_proveedor"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view proveedor",
+            "content_type": 8,
+            "codename": "view_proveedor"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add producto",
+            "content_type": 9,
+            "codename": "add_producto"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change producto",
+            "content_type": 9,
+            "codename": "change_producto"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete producto",
+            "content_type": 9,
+            "codename": "delete_producto"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view producto",
+            "content_type": 9,
+            "codename": "view_producto"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 37,
+        "fields": {
+            "name": "Can add Theme",
+            "content_type": 10,
+            "codename": "add_theme"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 38,
+        "fields": {
+            "name": "Can change Theme",
+            "content_type": 10,
+            "codename": "change_theme"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 39,
+        "fields": {
+            "name": "Can delete Theme",
+            "content_type": 10,
+            "codename": "delete_theme"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 40,
+        "fields": {
+            "name": "Can view Theme",
+            "content_type": 10,
+            "codename": "view_theme"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 41,
+        "fields": {
+            "name": "Can add contacto",
+            "content_type": 11,
+            "codename": "add_contacto"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 42,
+        "fields": {
+            "name": "Can change contacto",
+            "content_type": 11,
+            "codename": "change_contacto"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 43,
+        "fields": {
+            "name": "Can delete contacto",
+            "content_type": 11,
+            "codename": "delete_contacto"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 44,
+        "fields": {
+            "name": "Can view contacto",
+            "content_type": 11,
+            "codename": "view_contacto"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 45,
+        "fields": {
+            "name": "Can add categoria",
+            "content_type": 12,
+            "codename": "add_categoria"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 46,
+        "fields": {
+            "name": "Can change categoria",
+            "content_type": 12,
+            "codename": "change_categoria"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 47,
+        "fields": {
+            "name": "Can delete categoria",
+            "content_type": 12,
+            "codename": "delete_categoria"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 48,
+        "fields": {
+            "name": "Can view categoria",
+            "content_type": 12,
+            "codename": "view_categoria"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 49,
+        "fields": {
+            "name": "Can add subcategoria",
+            "content_type": 13,
+            "codename": "add_subcategoria"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 50,
+        "fields": {
+            "name": "Can change subcategoria",
+            "content_type": 13,
+            "codename": "change_subcategoria"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 51,
+        "fields": {
+            "name": "Can delete subcategoria",
+            "content_type": 13,
+            "codename": "delete_subcategoria"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 52,
+        "fields": {
+            "name": "Can view subcategoria",
+            "content_type": 13,
+            "codename": "view_subcategoria"
+        }
+    },
+    {
+        "model": "auth.group",
+        "pk": 1,
+        "fields": {
+            "name": "Ventas",
+            "permissions": [
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32
+            ]
+        }
+    },
+    {
+        "model": "auth.group",
+        "pk": 2,
+        "fields": {
+            "name": "Contenidos",
+            "permissions": [
+                17,
+                18,
+                19,
+                20
+            ]
+        }
+    },
+    {
+        "model": "auth.group",
+        "pk": 3,
+        "fields": {
+            "name": "Colaborador",
+            "permissions": [
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32
+            ]
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$Zdtfff8ZRtGqeggVWQ6CM2$X/LFwEwUraEfhKMKUCRudwmFUUHSlPRYtfSxYZ2QoiM=",
+            "last_login": "2022-05-21T01:09:43.549Z",
+            "is_superuser": true,
+            "username": "Admin_telovendo",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2022-04-18T23:55:06.924Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$2kbJYIYNMnxU4jCx0OTlVq$XEzP6fmk6Q/G8CpMVRmvm/ji3gFatKCSt43XhLh9aco=",
+            "last_login": "2022-04-25T03:04:47Z",
+            "is_superuser": false,
+            "username": "Diego",
+            "first_name": "",
+            "last_name": "",
+            "email": "probando@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2022-04-25T03:04:46Z",
+            "groups": [
+                1
+            ],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$z9IBm30BxKGtOuDXgPVEQJ$gUabDLVq4SkVZls8Rnoqnn0UKN87fUHfNuG+rKsb9no=",
+            "last_login": "2022-05-18T01:29:07.621Z",
+            "is_superuser": false,
+            "username": "Alberto",
+            "first_name": "",
+            "last_name": "",
+            "email": "albertob@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2022-04-25T03:09:13Z",
+            "groups": [
+                2
+            ],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 4,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$F8r5toU3PvbQ33gaLoLGE1$dz95kHyWxfay0p/qN6sD+qC4fpd/SoH4k/hfQJb1EoA=",
+            "last_login": "2022-05-12T01:17:06.768Z",
+            "is_superuser": false,
+            "username": "Colaborador1",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2022-04-30T00:09:48Z",
+            "groups": [
+                3
+            ],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 5,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$XcPpKpHKN6is3DifoPPGcg$h7zUGTWIq9NqqG7ouHGCQt5Rg/epfdfZQo2NVGbf128=",
+            "last_login": "2022-05-11T02:16:21.601Z",
+            "is_superuser": false,
+            "username": "Rodrigo",
+            "first_name": "",
+            "last_name": "",
+            "email": "rodrigotesta@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2022-04-30T01:28:41.338Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 6,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$klEqmXOefwMDedHTXEUsgB$d7nS0fj15iMnr7L3aBTabpPaRGGVbuEfMxUrGUs1C78=",
+            "last_login": "2022-05-02T04:20:08.253Z",
+            "is_superuser": false,
+            "username": "DiegoG",
+            "first_name": "",
+            "last_name": "",
+            "email": "diegog@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2022-05-02T04:20:07.875Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 7,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$xCUPYMubok7ZMHOcvXqQJk$g/s4NYZJb+5plBlGVWNpH7ruz5erJchb5vFt/4hjQpo=",
+            "last_login": "2022-05-17T02:19:01.194Z",
+            "is_superuser": false,
+            "username": "Laura",
+            "first_name": "",
+            "last_name": "",
+            "email": "laura@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2022-05-17T02:19:00.823Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 8,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$uM20f2OJscNnWZjqd1a69K$il2uo2GN/0y5r7Z9YnWcY8v9N9gM5LyGjthKudjpeEs=",
+            "last_login": "2022-05-18T01:31:45.984Z",
+            "is_superuser": false,
+            "username": "Ana",
+            "first_name": "",
+            "last_name": "",
+            "email": "ana@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2022-05-18T01:31:45.537Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "tienda",
+            "model": "cliente"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "tienda",
+            "model": "proveedor"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 9,
+        "fields": {
+            "app_label": "tienda",
+            "model": "producto"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 10,
+        "fields": {
+            "app_label": "admin_interface",
+            "model": "theme"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 11,
+        "fields": {
+            "app_label": "tienda",
+            "model": "contacto"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 12,
+        "fields": {
+            "app_label": "tienda",
+            "model": "categoria"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 13,
+        "fields": {
+            "app_label": "tienda",
+            "model": "subcategoria"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "0ef45ier5317ei3h5xjvnf6v2pd4pqjf",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2hAKDBaX7nsGMjOAVA0kpV0Z765NutDtf-_9lwi4rSVsPS1hjuIirDj9boT8SHUH8Y711iS3ui4zyV2RB-1yajE9r4f7d1Cwl2_NGZUjozOzOqMe06ATe0cAJjvI6NlaMEOOaNSYwKEiIu89WHIWtBPvD_1eOAI:1noxRy:hff5BfulMgTED8Psi8O56n6ZLY0860LF0BkWZmz5W1E",
+            "expire_date": "2022-05-26T01:17:06.777Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "520hi7klp67gjystj8t2cwgchfg1d4ag",
+        "fields": {
+            "session_data": ".eJxVjDsOwyAQRO9CHSGWnyFlep8BwS4EJxGWjF1FuXtsyUUy5bw382YhbmsNW89LmIhdGbDLb5ciPnM7AD1iu88c57YuU-KHwk_a-ThTft1O9--gxl739TBY0CiyjgaMLNpR9KQEZPBOSARI1klNwoNC8jYrJwuhKtKj2mPY5wu72Dba:1nrr2d:CQ_mJU3pbkkb7rpYoid0tzmEAYhsCtGBoDOjtjKDiZk",
+            "expire_date": "2022-06-03T01:02:55.197Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "byittf6tyglxnr3f572idyuao5gx6fsn",
+        "fields": {
+            "session_data": ".eJxVjDsOwyAQRO9CHSGWnyFlep8BwS4EJxGWjF1FuXtsyUUy5bw382YhbmsNW89LmIhdGbDLb5ciPnM7AD1iu88c57YuU-KHwk_a-ThTft1O9--gxl739TBY0CiyjgaMLNpR9KQEZPBOSARI1klNwoNC8jYrJwuhKtKj2mPY5wu72Dba:1nlfKB:S1hoB6Th4bOQyORKY6yw3j6P4dj5ONEx_ga-CrvJ22A",
+            "expire_date": "2022-05-16T23:19:27.055Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "j8ymfp0ppnyxc8xl0jje1h8zjbgaljfy",
+        "fields": {
+            "session_data": ".eJxVjDsOwyAQRO9CHSGWnyFlep8BwS4EJxGWjF1FuXtsyUUy5bw382YhbmsNW89LmIhdGbDLb5ciPnM7AD1iu88c57YuU-KHwk_a-ThTft1O9--gxl739TBY0CiyjgaMLNpR9KQEZPBOSARI1klNwoNC8jYrJwuhKtKj2mPY5wu72Dba:1ngbDq:EMnKK959nC8LVMhApbuByCgjGMXJ0deCjHg9qJJRvME",
+            "expire_date": "2022-05-02T23:55:58.393Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "o9x741rv6qalvcs19cacmjq4ap3mbrkn",
+        "fields": {
+            "session_data": ".eJxVjDsOwyAQRO9CHSGWnyFlep8BwS4EJxGWjF1FuXtsyUUy5bw382YhbmsNW89LmIhdGbDLb5ciPnM7AD1iu88c57YuU-KHwk_a-ThTft1O9--gxl739TBY0CiyjgaMLNpR9KQEZPBOSARI1klNwoNC8jYrJwuhKtKj2mPY5wu72Dba:1nrUlr:bTnePB0E_yzrpnJn1A-HNXv2BU_RY8HrkwZ4FdS7EpE",
+            "expire_date": "2022-06-02T01:16:07.414Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "v5bp7h416gfauj8f5cmjstvxbqwi8lx6",
+        "fields": {
+            "session_data": ".eJxVjDsOwyAQRO9CHSGWnyFlep8BwS4EJxGWjF1FuXtsyUUy5bw382YhbmsNW89LmIhdGbDLb5ciPnM7AD1iu88c57YuU-KHwk_a-ThTft1O9--gxl739TBY0CiyjgaMLNpR9KQEZPBOSARI1klNwoNC8jYrJwuhKtKj2mPY5wu72Dba:1ni4Ud:yHIOmnHInTO2ZwjyD9WEyklwhtKVTfQG5Qd6-kBat-s",
+            "expire_date": "2022-05-07T01:23:23.398Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "yoijdl3h4rmruxx56e2tyo85nyaoc5a8",
+        "fields": {
+            "session_data": ".eJxVjDsOwyAQRO9CHSGWnyFlep8BwS4EJxGWjF1FuXtsyUUy5bw382YhbmsNW89LmIhdGbDLb5ciPnM7AD1iu88c57YuU-KHwk_a-ThTft1O9--gxl739TBY0CiyjgaMLNpR9KQEZPBOSARI1klNwoNC8jYrJwuhKtKj2mPY5wu72Dba:1nsDEf:NjSMp-NXS9CcV37wc4NNvag_wtMjS76evpowKoI9AMc",
+            "expire_date": "2022-06-04T00:44:49.607Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "yz2219kbwxb3ws1m1zshjh1gc9sqgwaq",
+        "fields": {
+            "session_data": ".eJxVjDsOwyAQRO9CHSGWnyFlep8BwS4EJxGWjF1FuXtsyUUy5bw382YhbmsNW89LmIhdGbDLb5ciPnM7AD1iu88c57YuU-KHwk_a-ThTft1O9--gxl739TBY0CiyjgaMLNpR9KQEZPBOSARI1klNwoNC8jYrJwuhKtKj2mPY5wu72Dba:1nlgpP:sD8xSnamPAqmzj9Se5Xtq7cwFoOMWgqcGPSivAs_fCo",
+            "expire_date": "2022-05-17T00:55:47.650Z"
+        }
+    },
+    {
+        "model": "tienda.cliente",
+        "pk": 1,
+        "fields": {
+            "nombre": "Mark",
+            "apellido": "Johnson",
+            "correo_electronico": "mark.johnson@gmail.com",
+            "telefono": "+56980107341",
+            "direccion": "Av.Manuel Montt 111,Providencia"
+        }
+    },
+    {
+        "model": "tienda.cliente",
+        "pk": 2,
+        "fields": {
+            "nombre": "Jacob",
+            "apellido": "Thorton",
+            "correo_electronico": "jacob.thorton@gmail.com",
+            "telefono": "+56991450032",
+            "direccion": "1 Norte 1481,Viña del Mar"
+        }
+    },
+    {
+        "model": "tienda.cliente",
+        "pk": 3,
+        "fields": {
+            "nombre": "Larry",
+            "apellido": "Smith",
+            "correo_electronico": "larry.smith1@gmail.com",
+            "telefono": "+56994302771",
+            "direccion": "Alvarez 402,Viña del Mar"
+        }
+    },
+    {
+        "model": "tienda.cliente",
+        "pk": 4,
+        "fields": {
+            "nombre": "Maria",
+            "apellido": "Silva",
+            "correo_electronico": "maria.silva7@gmail.com",
+            "telefono": "+56995672360",
+            "direccion": "Lusitania 680, Viña del Mar"
+        }
+    },
+    {
+        "model": "tienda.cliente",
+        "pk": 5,
+        "fields": {
+            "nombre": "Clara",
+            "apellido": "Saldivar",
+            "correo_electronico": "clara.sald@gmail.com",
+            "telefono": "+56982509873",
+            "direccion": "Arlegui 333 Viña del Mar"
+        }
+    },
+    {
+        "model": "tienda.cliente",
+        "pk": 6,
+        "fields": {
+            "nombre": "Daniel",
+            "apellido": "Saa",
+            "correo_electronico": "daniel.saa@gmail.com",
+            "telefono": "+56973427890",
+            "direccion": "Brasil 2608, Valparaíso"
+        }
+    },
+    {
+        "model": "tienda.cliente",
+        "pk": 7,
+        "fields": {
+            "nombre": "Vicente",
+            "apellido": "Campos",
+            "correo_electronico": "vicente.campos@gmail.com",
+            "telefono": "+56962501972",
+            "direccion": "Quillota 250, Viña del Mar"
+        }
+    },
+    {
+        "model": "tienda.cliente",
+        "pk": 8,
+        "fields": {
+            "nombre": "Fernando",
+            "apellido": "Perez",
+            "correo_electronico": "fernando.perez@gmail.com",
+            "telefono": "+56988703445",
+            "direccion": "5 Oriente 260, Viña del Mar"
+        }
+    },
+    {
+        "model": "tienda.cliente",
+        "pk": 9,
+        "fields": {
+            "nombre": "Soledad",
+            "apellido": "Pinares",
+            "correo_electronico": "soledad.pinares@gmail.com",
+            "telefono": "+56995338272",
+            "direccion": "Rodolfo Phillippi 121, Valparaíso"
+        }
+    },
+    {
+        "model": "tienda.cliente",
+        "pk": 10,
+        "fields": {
+            "nombre": "Cecilia",
+            "apellido": "Ramirez",
+            "correo_electronico": "cecilia.ramirez@gmail.com",
+            "telefono": "+56988567668",
+            "direccion": "Av. Gómez Carreño 4065, Viña del Mar"
+        }
+    },
+    {
+        "model": "tienda.cliente",
+        "pk": 11,
+        "fields": {
+            "nombre": "Benito",
+            "apellido": "Carmelo",
+            "correo_electronico": "benitocarmelo@gmail.com",
+            "telefono": "+56980587661",
+            "direccion": "Av. Gómez Carreño 636, Viña del Mar"
+        }
+    },
+    {
+        "model": "tienda.categoria",
+        "pk": 1,
+        "fields": {
+            "nombre": "Hombre"
+        }
+    },
+    {
+        "model": "tienda.categoria",
+        "pk": 2,
+        "fields": {
+            "nombre": "Mujer"
+        }
+    },
+    {
+        "model": "tienda.subcategoria",
+        "pk": 1,
+        "fields": {
+            "nombre": "Polerones"
+        }
+    },
+    {
+        "model": "tienda.subcategoria",
+        "pk": 2,
+        "fields": {
+            "nombre": "Poleras"
+        }
+    },
+    {
+        "model": "tienda.subcategoria",
+        "pk": 3,
+        "fields": {
+            "nombre": "Chaquetas"
+        }
+    },
+    {
+        "model": "tienda.proveedor",
+        "pk": 14,
+        "fields": {
+            "nombre": "Juan Perez",
+            "marca": "Gato veloz",
+            "telefono": "+56980587664",
+            "correo_electronico": "jperez@gatoveloz.cl",
+            "categoria": 1,
+            "subcategoria": 1
+        }
+    },
+    {
+        "model": "tienda.proveedor",
+        "pk": 15,
+        "fields": {
+            "nombre": "Lissette Zapata",
+            "marca": "Zapatas",
+            "telefono": "+56973427897",
+            "correo_electronico": "lzapata@zapatas.cl",
+            "categoria": 2,
+            "subcategoria": 2
+        }
+    },
+    {
+        "model": "tienda.proveedor",
+        "pk": 16,
+        "fields": {
+            "nombre": "Rodrigo Testing",
+            "marca": "Testing",
+            "telefono": "+56980107340",
+            "correo_electronico": "rtesting@testing.cl",
+            "categoria": 1,
+            "subcategoria": 3
+        }
+    },
+    {
+        "model": "tienda.proveedor",
+        "pk": 17,
+        "fields": {
+            "nombre": "Soledad Pinto",
+            "marca": "Poleid",
+            "telefono": "+56980107347",
+            "correo_electronico": "solpinto@gmail.com",
+            "categoria": 2,
+            "subcategoria": 1
+        }
+    },
+    {
+        "model": "tienda.proveedor",
+        "pk": 18,
+        "fields": {
+            "nombre": "Cecilia Bravo",
+            "marca": "Bravos",
+            "telefono": "+56980107343",
+            "correo_electronico": "cecilabravo@gmail.com",
+            "categoria": 2,
+            "subcategoria": 3
+        }
+    },
+    {
+        "model": "tienda.proveedor",
+        "pk": 19,
+        "fields": {
+            "nombre": "Anibal Avello",
+            "marca": "Anivel",
+            "telefono": "+56973427892",
+            "correo_electronico": "aavello@gmail.com",
+            "categoria": 1,
+            "subcategoria": 2
+        }
+    },
+    {
+        "model": "tienda.producto",
+        "pk": 1,
+        "fields": {
+            "nombre": "Polera blanca hombre",
+            "marca": 19,
+            "moda": 1,
+            "tipo": 2,
+            "precio": 19990,
+            "stock": 20,
+            "color": "blanco",
+            "talla": "L",
+            "imagen": "productos/bao-bao-GREEBEtyR9Y-unsplash_XE2j6wj.jpg"
+        }
+    },
+    {
+        "model": "tienda.producto",
+        "pk": 2,
+        "fields": {
+            "nombre": "Polera negra mujer",
+            "marca": 15,
+            "moda": 2,
+            "tipo": 2,
+            "precio": 15990,
+            "stock": 25,
+            "color": "negro",
+            "talla": "M",
+            "imagen": "productos/vlah-dumitru-SeeiNC9snZg-unsplash_UKNNi6C_l2R9kcF.jpg"
+        }
+    },
+    {
+        "model": "tienda.producto",
+        "pk": 3,
+        "fields": {
+            "nombre": "Poleron gris hombre",
+            "marca": 14,
+            "moda": 1,
+            "tipo": 1,
+            "precio": 25990,
+            "stock": 15,
+            "color": "gris",
+            "talla": "L",
+            "imagen": "productos/jannes-jacobs-a_KC8ocB650-unsplash_9Q3tKi9.jpg"
+        }
+    },
+    {
+        "model": "tienda.producto",
+        "pk": 4,
+        "fields": {
+            "nombre": "Poleron negro mujer",
+            "marca": 17,
+            "moda": 2,
+            "tipo": 1,
+            "precio": 25990,
+            "stock": 20,
+            "color": "negro",
+            "talla": "M",
+            "imagen": "productos/pablo-soriano-xjlOifZzxcY-unsplash_nfWQAmP.jpg"
+        }
+    },
+    {
+        "model": "tienda.contacto",
+        "pk": 1,
+        "fields": {
+            "nombre": "Admin",
+            "correo_electronico": "albertob@gmail.com",
+            "tipo_consulta": 0,
+            "mensaje": "Mensaje de prueba. Van agregar más productos al catálogo?"
+        }
+    }
+]

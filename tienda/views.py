@@ -140,6 +140,16 @@ def contacto(request):
         return render(request, 'tienda/contacto.html', {"form":form}) 
 
 @login_required
+def mismensajes(request):
+    email=request.user.email
+    mensaje=Contacto.objects.filter(correo_electronico=email).all()
+    context = {
+    'mensajes': mensaje,
+    }
+    return render(request, 'tienda/mismensajes.html', context)
+
+
+@login_required
 def contacto_edit(request,pk):
     contacto = get_object_or_404(Contacto, pk=pk)
     if request.method == "POST":

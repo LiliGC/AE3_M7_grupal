@@ -45,6 +45,9 @@
                     <a class="nav-link" href="{% url 'contacto' %}">Contáctanos</a>
                   </li>
                   <li class="nav-item">
+                    <a class="nav-link" href="{% url 'mismensajes' %}">Mis mensajes</a>
+                  </li>
+                  <li class="nav-item">
                     <a class="nav-link" href="{% url 'logout' %}">Salir</a>
                   </li>
                 {% if user.is_staff %}
