@@ -47,29 +47,29 @@
                   <li class="nav-item">
                     <a class="nav-link" href="{% url 'mismensajes' %}">Mis mensajes</a>
                   </li>
+                  {% if user.is_staff %}
+                    <li class="nav-item">
+                      <a class="nav-link" href="{% url 'listacontactos' %}">Mensajes de Contacto</a>
+                    </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="{% url 'clientes' %}">Clientes</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="{% url 'proveedores' %}">Proveedores</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="{% url 'listadoprod' %}">Listado de Productos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="{% url 'registroprov' %}">Registro Proveedores</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="{% url 'registroprod' %}">Registro de Productos</a>
+                      </li>
+                {% endif %}
                   <li class="nav-item">
                     <a class="nav-link" href="{% url 'logout' %}">Salir</a>
                   </li>
-                {% if user.is_staff %}
-                  <li class="nav-item">
-                    <a class="nav-link" href="{% url 'listacontactos' %}">Mensajes de Contacto</a>
-                  </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="{% url 'clientes' %}">Clientes</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="{% url 'proveedores' %}">Proveedores</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="{% url 'listadoprod' %}">Listado de Productos</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="{% url 'registroprov' %}">Registro Proveedores</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="{% url 'registroprod' %}">Registro de Productos</a>
-                    </li>
-                {% endif %}
               {% else %}
                   <li class="nav-item">
                     <a class="nav-link" href="{% url 'login' %}">Iniciar sesión</a>
